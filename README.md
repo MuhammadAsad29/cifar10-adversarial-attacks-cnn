@@ -1,4 +1,4 @@
-CIFAR-10 Adversarial Attacks
+# CIFAR-10 Adversarial Attacks
 
 This project implements a complete pipeline for:
 
@@ -12,9 +12,9 @@ Explainability (Grad-CAM & Integrated Gradients)
 
 ⚙️ Setup
 python -m venv .venv
-Linux/Mac
+## Linux/Mac
 source .venv/bin/activate
-Windows (PowerShell)
+## Windows (PowerShell)
 .venv\Scripts\Activate.ps1
 
 pip install -r requirements.txt
@@ -108,3 +108,4 @@ report_template.md — Report template
 Fix seed: --seed 42
 
 Use --workers 2 on low-RAM systems to reduce dataloader overhead
+
